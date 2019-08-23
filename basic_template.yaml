@@ -1,0 +1,23 @@
+config: 
+    target: ""
+    phases:
+      - duration: 
+        arrivalRate: 
+    environments:
+      production:
+        target: ""
+        phases:
+          - duration:
+            arrivalRate:
+      staging:
+        target: ""
+        phases:
+          - duration:
+            arrivalRate:
+    variables:
+scenarios:
+  - flow:
+    - get:
+        url: ""
+    - post:
+        url: ""
